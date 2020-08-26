@@ -1,0 +1,22 @@
+@font-face {
+  font-family: archer-book-pro;
+  src: url(archer-book-pro.otf);
+}
+
+body {
+  background-color: #FCF2DB;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: auto;
+}
+
+.font {
+  font-family: archer-book-pro;
+  color : #4b4244;
+  text-align: center;
+}
