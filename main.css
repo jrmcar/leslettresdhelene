@@ -11,7 +11,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 80%;
   height: auto;
 }
 
@@ -19,4 +19,23 @@ body {
   font-family: archer-book-pro;
   color : #4b4244;
   text-align: center;
+  font-size: 1em;
+}
+
+/* For width 800px and larger: */
+@media only screen and (min-width: 800px) {
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+  }
+
+  .font {
+    font-family: archer-book-pro;
+    color : #4b4244;
+    text-align: center;
+    font-size: 1.4em;
+  }
 }
